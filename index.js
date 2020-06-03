@@ -71,4 +71,15 @@ if (!Array.prototype.last) {
     };
   }
 
-  
+  if (!Array.prototype.single) {
+    Array.prototype.single = function (name, params) {
+      const temp=this.filter(data => data[name].equals(params))
+      if(temp.length==0){
+       return null;
+      }
+      return temp[0]
+    };
+  }
+
+
+

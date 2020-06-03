@@ -8,3 +8,4 @@ fi
 git add .
 git commit -m "$msg - $NOW"
 git push origin master
+npm publish

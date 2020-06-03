@@ -1,6 +1,6 @@
 {
-  "name": "javascript-extenstions",
-  "version": "1.0.0",
+  "name": "@murunwas/utils",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,11 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/murunwas/extension.git"
   },
-  "keywords": [],
+  "keywords": [
+    "package"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/murunwas/extension/issues"
   },
-  "homepage": "https://github.com/murunwas/extension#readme"
+  "homepage": "https://github.com/murunwas/extension#readme",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  }
 }
