@@ -1,0 +1,20 @@
+{
+  "name": "javascript-extenstions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murunwas/extension.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/murunwas/extension/issues"
+  },
+  "homepage": "https://github.com/murunwas/extension#readme"
+}
