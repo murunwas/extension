@@ -8,7 +8,7 @@ fi
 git add .
 git commit -m "$msg - $NOW"
 
-version --minor
+npm version --minor
 git push --tags
 git push origin master
 
