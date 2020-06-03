@@ -11,5 +11,5 @@ git commit -m "$msg - $NOW"
 npm version --minor
 git push --tags
 git push origin master
-
+npm version patch
 npm publish
