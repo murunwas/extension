@@ -20,7 +20,7 @@ console.log("is empty : ",hasEmpty);
 //Object has property
 console.log("Object has property : ",data.has("name"));
 //Object is empty
-console.log("Object is empty : ",data.isEmpty());
+//console.log("Object is empty : ",data.isEmpty());
 
 //String has error
 console.log("Has error : ","error".error());
